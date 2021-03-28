@@ -52,7 +52,10 @@ Some other informations are saved too
 To eliminate duplicates of ships an other function is used with different parameters (delete_duplicates.py) return satellite images updated (example in v6/execute_model/results/clean_images)
 
 
-To execute:
-python3 train_models/main_v6.py
-python3 execute_model/main_v6_run.py
-python3 execute_model/delete_duplicates_v6.py
+To execute (follow order):
+
+$ python3 train_models/main_v6.py
+
+$ python3 execute_model/main_v6_run.py
+
+$ python3 execute_model/delete_duplicates_v6.py
