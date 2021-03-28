@@ -41,4 +41,18 @@ To execute:
 
 $ python3 main_v5.py
 
+## Version 6:
+Load dataset in format PNG (cropped images). Add new data by rotation or by increasing brightness of images
 
+Execute several test with differents parameters for CNN model, save performances into a pandas DF, save the best model and the best optimizer (not included here)
+
+Launch the model on satellite images from Kaggle (main_v6_run.py) with different parameters return satellite images with all ships found (example in v6/execute_model/results/images)
+Some other informations are saved too
+
+To eliminate duplicates of ships an other function is used with different parameters (delete_duplicates.py) return satellite images updated (example in v6/execute_model/results/clean_images)
+
+
+To execute:
+python3 train_models/main_v6.py
+python3 execute_model/main_v6_run.py
+python3 execute_model/delete_duplicates_v6.py
