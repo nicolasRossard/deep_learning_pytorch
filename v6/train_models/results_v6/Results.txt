@@ -1,0 +1,1928 @@
+index_train = (9600,)
+index_test = (2400,)
+X_train shape = (9600, 3, 80, 80)
+y_train shape = (9600,)
+
+
+X_test shape = (2400, 3, 80, 80)
+y_test shape = (2400,)
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 7893 Loss: 20.109292283654213
+Epoch: 1 Total_correct: 8926 Loss: 8.181214846670628
+
+Results on test dataset:
+	Total correct:2263/2400
+	Accuracy: 94.29166666666667 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 94.29166666666667 % > 0 %	 NEW MODEL SAVED: Model_2_200_20_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 6996 Loss: 55.329438745975494
+Epoch: 1 Total_correct: 7200 Loss: 26.325756400823593
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 5858 Loss: 201459.05760407448
+Epoch: 1 Total_correct: 6978 Loss: 29.745525777339935
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 7531 Loss: 14.388651117682457
+Epoch: 1 Total_correct: 8860 Loss: 5.907969377934933
+
+Results on test dataset:
+	Total correct:2303/2400
+	Accuracy: 95.95833333333333 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 95.95833333333333 % > 94.29166666666667 %	 NEW MODEL SAVED: Model_2_300_20_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 6934 Loss: 84.85172122716904
+Epoch: 1 Total_correct: 7651 Loss: 15.666834056377411
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 6002 Loss: 59491.64876914024
+Epoch: 1 Total_correct: 7200 Loss: 18.768355786800385
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 6902 Loss: 9.177378803491592
+Epoch: 1 Total_correct: 7948 Loss: 5.976582795381546
+
+Results on test dataset:
+	Total correct:2117/2400
+	Accuracy: 88.20833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 6302 Loss: 145.8429616689682
+Epoch: 1 Total_correct: 7200 Loss: 9.025714933872223
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 5696 Loss: 294523.9076535702
+Epoch: 1 Total_correct: 7200 Loss: 9.187569081783295
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 7861 Loss: 18.95330113172531
+Epoch: 1 Total_correct: 8970 Loss: 7.933948755264282
+Epoch: 2 Total_correct: 9178 Loss: 5.333763297647238
+Epoch: 3 Total_correct: 9332 Loss: 3.6207945588976145
+Epoch: 4 Total_correct: 9461 Loss: 2.00047761015594
+
+Results on test dataset:
+	Total correct:2346/2400
+	Accuracy: 97.75 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 97.75 % > 95.95833333333333 %	 NEW MODEL SAVED: Model_5_200_20_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 7312 Loss: 326.69839826226234
+Epoch: 1 Total_correct: 8542 Loss: 13.629030346870422
+Epoch: 2 Total_correct: 8860 Loss: 9.406322076916695
+Epoch: 3 Total_correct: 9066 Loss: 7.046827457845211
+Epoch: 4 Total_correct: 9144 Loss: 6.36488601192832
+
+Results on test dataset:
+	Total correct:2308/2400
+	Accuracy: 96.16666666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 6072 Loss: 1096523.7786557674
+Epoch: 1 Total_correct: 7094 Loss: 28.569017708301544
+Epoch: 2 Total_correct: 7200 Loss: 27.631258606910706
+Epoch: 3 Total_correct: 7200 Loss: 27.7516011595726
+Epoch: 4 Total_correct: 7200 Loss: 27.340971887111664
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 7570 Loss: 15.231190353631973
+Epoch: 1 Total_correct: 8774 Loss: 6.470456942915916
+Epoch: 2 Total_correct: 9141 Loss: 3.831904351711273
+Epoch: 3 Total_correct: 9250 Loss: 3.052533984184265
+Epoch: 4 Total_correct: 9350 Loss: 2.1689865440130234
+
+Results on test dataset:
+	Total correct:2355/2400
+	Accuracy: 98.125 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 98.125 % > 97.75 %	 NEW MODEL SAVED: Model_5_300_20_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 6624 Loss: 149.48518413305283
+Epoch: 1 Total_correct: 7577 Loss: 13.88981482386589
+Epoch: 2 Total_correct: 8286 Loss: 9.796691954135895
+Epoch: 3 Total_correct: 8768 Loss: 6.554580010473728
+Epoch: 4 Total_correct: 8873 Loss: 5.981162115931511
+
+Results on test dataset:
+	Total correct:2261/2400
+	Accuracy: 94.20833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 6644 Loss: 387730.469651103
+Epoch: 1 Total_correct: 7200 Loss: 18.003221094608307
+Epoch: 2 Total_correct: 7200 Loss: 18.003134429454803
+Epoch: 3 Total_correct: 7200 Loss: 18.003122985363007
+Epoch: 4 Total_correct: 7200 Loss: 18.00247859954834
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 6935 Loss: 10.749170184135437
+Epoch: 1 Total_correct: 7875 Loss: 6.484856307506561
+Epoch: 2 Total_correct: 8294 Loss: 4.634117498993874
+Epoch: 3 Total_correct: 8613 Loss: 3.777131572365761
+Epoch: 4 Total_correct: 8817 Loss: 3.179939717054367
+
+Results on test dataset:
+	Total correct:2231/2400
+	Accuracy: 92.95833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 6580 Loss: 143.27947306632996
+Epoch: 1 Total_correct: 7204 Loss: 8.579995781183243
+Epoch: 2 Total_correct: 7346 Loss: 8.352200865745544
+Epoch: 3 Total_correct: 7972 Loss: 6.449250057339668
+Epoch: 4 Total_correct: 8159 Loss: 5.616351202130318
+
+Results on test dataset:
+	Total correct:2148/2400
+	Accuracy: 89.5 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 5968 Loss: 202176.82891184092
+Epoch: 1 Total_correct: 7200 Loss: 9.079067289829254
+Epoch: 2 Total_correct: 7200 Loss: 9.013259530067444
+Epoch: 3 Total_correct: 7200 Loss: 9.005899369716644
+Epoch: 4 Total_correct: 7200 Loss: 9.003059148788452
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 8020 Loss: 16.99240429699421
+Epoch: 1 Total_correct: 9057 Loss: 7.094054162502289
+Epoch: 2 Total_correct: 9282 Loss: 4.17958827316761
+Epoch: 3 Total_correct: 9435 Loss: 2.391273779794574
+Epoch: 4 Total_correct: 9533 Loss: 1.166047693695873
+Epoch: 5 Total_correct: 9544 Loss: 0.9300462891114876
+Epoch: 6 Total_correct: 9492 Loss: 1.4381712237372994
+
+Results on test dataset:
+	Total correct:2373/2400
+	Accuracy: 98.875 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 98.875 % > 98.125 %	 NEW MODEL SAVED: Model_7_200_20_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 6992 Loss: 87.20043313503265
+Epoch: 1 Total_correct: 7200 Loss: 27.07766479253769
+Epoch: 2 Total_correct: 7200 Loss: 27.23292827606201
+Epoch: 3 Total_correct: 7200 Loss: 27.063403338193893
+Epoch: 4 Total_correct: 7200 Loss: 27.060305953025818
+Epoch: 5 Total_correct: 7200 Loss: 27.043700993061066
+Epoch: 6 Total_correct: 7200 Loss: 27.03536829352379
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 5874 Loss: 1357983.1502587795
+Epoch: 1 Total_correct: 6734 Loss: 37.59621819853783
+Epoch: 2 Total_correct: 7200 Loss: 27.39960804581642
+Epoch: 3 Total_correct: 7200 Loss: 27.620418965816498
+Epoch: 4 Total_correct: 7200 Loss: 27.855800688266754
+Epoch: 5 Total_correct: 7200 Loss: 27.84685653448105
+Epoch: 6 Total_correct: 7200 Loss: 27.581550985574722
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 7404 Loss: 15.15600973367691
+Epoch: 1 Total_correct: 8682 Loss: 7.503390192985535
+Epoch: 2 Total_correct: 9024 Loss: 4.828123532235622
+Epoch: 3 Total_correct: 9153 Loss: 3.8959317058324814
+Epoch: 4 Total_correct: 9251 Loss: 3.066804762929678
+Epoch: 5 Total_correct: 9319 Loss: 2.597403485327959
+Epoch: 6 Total_correct: 9390 Loss: 1.9854690060019493
+
+Results on test dataset:
+	Total correct:2350/2400
+	Accuracy: 97.91666666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 6765 Loss: 107.83171692490578
+Epoch: 1 Total_correct: 7188 Loss: 16.487549543380737
+Epoch: 2 Total_correct: 7198 Loss: 16.12845504283905
+Epoch: 3 Total_correct: 7160 Loss: 17.358900278806686
+Epoch: 4 Total_correct: 7200 Loss: 17.797812581062317
+Epoch: 5 Total_correct: 7200 Loss: 17.527220249176025
+Epoch: 6 Total_correct: 7200 Loss: 17.360790580511093
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 5794 Loss: 849221.4835706353
+Epoch: 1 Total_correct: 7200 Loss: 18.270353615283966
+Epoch: 2 Total_correct: 7200 Loss: 17.999846518039703
+Epoch: 3 Total_correct: 7200 Loss: 18.002151429653168
+Epoch: 4 Total_correct: 7200 Loss: 18.002893805503845
+Epoch: 5 Total_correct: 7200 Loss: 18.003042936325073
+Epoch: 6 Total_correct: 7200 Loss: 18.003037989139557
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 6914 Loss: 8.84848701953888
+Epoch: 1 Total_correct: 8113 Loss: 5.596516370773315
+Epoch: 2 Total_correct: 8686 Loss: 3.629694402217865
+Epoch: 3 Total_correct: 9021 Loss: 2.392703004181385
+Epoch: 4 Total_correct: 9158 Loss: 1.9539343863725662
+Epoch: 5 Total_correct: 9280 Loss: 1.4272164888679981
+Epoch: 6 Total_correct: 9409 Loss: 0.9342884980142117
+
+Results on test dataset:
+	Total correct:2358/2400
+	Accuracy: 98.25 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 5968 Loss: 303.95913964509964
+Epoch: 1 Total_correct: 7200 Loss: 9.019488453865051
+Epoch: 2 Total_correct: 7200 Loss: 9.006883919239044
+Epoch: 3 Total_correct: 7200 Loss: 9.00215744972229
+Epoch: 4 Total_correct: 7200 Loss: 9.001033008098602
+Epoch: 5 Total_correct: 7200 Loss: 9.001262545585632
+Epoch: 6 Total_correct: 7200 Loss: 9.001839876174927
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 6008 Loss: 1805238.1127847433
+Epoch: 1 Total_correct: 7200 Loss: 9.501482129096985
+Epoch: 2 Total_correct: 7200 Loss: 9.089338898658752
+Epoch: 3 Total_correct: 7200 Loss: 9.024506628513336
+Epoch: 4 Total_correct: 7200 Loss: 9.015896260738373
+Epoch: 5 Total_correct: 7200 Loss: 9.020984590053558
+Epoch: 6 Total_correct: 7200 Loss: 9.028404593467712
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 7701 Loss: 20.49130980670452
+Epoch: 1 Total_correct: 8909 Loss: 8.621864229440689
+Epoch: 2 Total_correct: 9108 Loss: 6.094533443450928
+Epoch: 3 Total_correct: 9226 Loss: 4.942008130252361
+Epoch: 4 Total_correct: 9310 Loss: 4.176536623388529
+Epoch: 5 Total_correct: 9368 Loss: 3.175199283286929
+Epoch: 6 Total_correct: 9388 Loss: 3.0031572077423334
+Epoch: 7 Total_correct: 9418 Loss: 2.3379431860521436
+Epoch: 8 Total_correct: 9508 Loss: 1.3641098006628454
+Epoch: 9 Total_correct: 9528 Loss: 0.9938493135850877
+
+Results on test dataset:
+	Total correct:2363/2400
+	Accuracy: 98.45833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 7596 Loss: 125.36115728318691
+Epoch: 1 Total_correct: 8648 Loss: 12.788875870406628
+Epoch: 2 Total_correct: 9093 Loss: 6.82603026740253
+Epoch: 3 Total_correct: 9294 Loss: 4.551262253895402
+Epoch: 4 Total_correct: 9482 Loss: 1.6691855862736702
+Epoch: 5 Total_correct: 9506 Loss: 1.5355005514575168
+Epoch: 6 Total_correct: 9552 Loss: 0.8526348866289482
+Epoch: 7 Total_correct: 9569 Loss: 0.5400871447636746
+Epoch: 8 Total_correct: 9559 Loss: 0.4590868678642437
+Epoch: 9 Total_correct: 9561 Loss: 0.594875849026721
+
+Results on test dataset:
+	Total correct:2360/2400
+	Accuracy: 98.33333333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 6571 Loss: 361432.6467026472
+Epoch: 1 Total_correct: 7200 Loss: 27.12760093808174
+Epoch: 2 Total_correct: 7200 Loss: 27.00396293401718
+Epoch: 3 Total_correct: 7200 Loss: 27.001204878091812
+Epoch: 4 Total_correct: 7200 Loss: 27.001077324151993
+Epoch: 5 Total_correct: 7200 Loss: 27.001021951436996
+Epoch: 6 Total_correct: 7200 Loss: 27.001129627227783
+Epoch: 7 Total_correct: 7200 Loss: 27.001406222581863
+Epoch: 8 Total_correct: 7200 Loss: 27.001803040504456
+Epoch: 9 Total_correct: 7200 Loss: 27.00228327512741
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 7439 Loss: 15.153628498315811
+Epoch: 1 Total_correct: 8678 Loss: 7.044194757938385
+Epoch: 2 Total_correct: 9092 Loss: 4.4617969840765
+Epoch: 3 Total_correct: 9186 Loss: 3.704725742340088
+Epoch: 4 Total_correct: 9219 Loss: 3.3185321390628815
+Epoch: 5 Total_correct: 9247 Loss: 3.0525948740541935
+Epoch: 6 Total_correct: 9310 Loss: 2.575010385364294
+Epoch: 7 Total_correct: 9447 Loss: 1.4502039141952991
+Epoch: 8 Total_correct: 9515 Loss: 0.8994547296315432
+Epoch: 9 Total_correct: 9510 Loss: 0.9100419487804174
+
+Results on test dataset:
+	Total correct:2337/2400
+	Accuracy: 97.375 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 6714 Loss: 119.48725986480713
+Epoch: 1 Total_correct: 7200 Loss: 16.924348682165146
+Epoch: 2 Total_correct: 7200 Loss: 16.302067160606384
+Epoch: 3 Total_correct: 7115 Loss: 16.361567974090576
+Epoch: 4 Total_correct: 7010 Loss: 34.67624658346176
+Epoch: 5 Total_correct: 7200 Loss: 18.161697268486023
+Epoch: 6 Total_correct: 7200 Loss: 18.023571252822876
+Epoch: 7 Total_correct: 7200 Loss: 18.01473158597946
+Epoch: 8 Total_correct: 7200 Loss: 18.01137113571167
+Epoch: 9 Total_correct: 7200 Loss: 18.009857952594757
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 5820 Loss: 589475.2110006213
+Epoch: 1 Total_correct: 6624 Loss: 267.0780902504921
+Epoch: 2 Total_correct: 7200 Loss: 18.01410400867462
+Epoch: 3 Total_correct: 7200 Loss: 17.998648703098297
+Epoch: 4 Total_correct: 7200 Loss: 17.997460186481476
+Epoch: 5 Total_correct: 7200 Loss: 17.998074054718018
+Epoch: 6 Total_correct: 7200 Loss: 17.998479962348938
+Epoch: 7 Total_correct: 7200 Loss: 17.99889314174652
+Epoch: 8 Total_correct: 7200 Loss: 17.99932062625885
+Epoch: 9 Total_correct: 7200 Loss: 17.99973028898239
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 6920 Loss: 8.71393209695816
+Epoch: 1 Total_correct: 8264 Loss: 4.9923351258039474
+Epoch: 2 Total_correct: 8733 Loss: 3.296205446124077
+Epoch: 3 Total_correct: 8957 Loss: 2.65178319811821
+Epoch: 4 Total_correct: 9138 Loss: 1.9839850217103958
+Epoch: 5 Total_correct: 9232 Loss: 1.519139189273119
+Epoch: 6 Total_correct: 9386 Loss: 1.0135407261550426
+Epoch: 7 Total_correct: 9429 Loss: 0.7754236720502377
+Epoch: 8 Total_correct: 9519 Loss: 0.45020318776369095
+Epoch: 9 Total_correct: 9555 Loss: 0.29728445410728455
+
+Results on test dataset:
+	Total correct:2368/2400
+	Accuracy: 98.66666666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 5989 Loss: 227.45518743991852
+Epoch: 1 Total_correct: 6976 Loss: 9.948736131191254
+Epoch: 2 Total_correct: 7200 Loss: 8.883809566497803
+Epoch: 3 Total_correct: 7200 Loss: 8.37771126627922
+Epoch: 4 Total_correct: 7764 Loss: 6.189836770296097
+Epoch: 5 Total_correct: 8042 Loss: 6.85285297036171
+Epoch: 6 Total_correct: 8308 Loss: 5.154816627502441
+Epoch: 7 Total_correct: 8437 Loss: 4.270573064684868
+Epoch: 8 Total_correct: 8638 Loss: 3.8966259956359863
+Epoch: 9 Total_correct: 8704 Loss: 3.6651076823472977
+
+Results on test dataset:
+	Total correct:2200/2400
+	Accuracy: 91.66666666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.2%	Percentage of test data:0.2	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 5365 Loss: 100055.5058541894
+Epoch: 1 Total_correct: 7200 Loss: 9.748445272445679
+Epoch: 2 Total_correct: 7200 Loss: 9.048193871974945
+Epoch: 3 Total_correct: 7200 Loss: 9.013568878173828
+Epoch: 4 Total_correct: 7200 Loss: 9.002900302410126
+Epoch: 5 Total_correct: 7200 Loss: 9.002225041389465
+Epoch: 6 Total_correct: 7200 Loss: 9.002640843391418
+Epoch: 7 Total_correct: 7200 Loss: 9.002700984477997
+Epoch: 8 Total_correct: 7200 Loss: 9.0030397772789
+Epoch: 9 Total_correct: 7200 Loss: 9.002990186214447
+
+Results on test dataset:
+	Total correct:1800/2400
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+index_train = (8400,)
+index_test = (3600,)
+X_train shape = (8400, 3, 80, 80)
+y_train shape = (8400,)
+
+
+X_test shape = (3600, 3, 80, 80)
+y_test shape = (3600,)
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 6399 Loss: 20.256959930062294
+Epoch: 1 Total_correct: 7610 Loss: 9.126991853117943
+
+Results on test dataset:
+	Total correct:3376/3600
+	Accuracy: 93.77777777777777 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 6605 Loss: 69.8682212382555
+Epoch: 1 Total_correct: 7637 Loss: 8.525425761938095
+
+Results on test dataset:
+	Total correct:3421/3600
+	Accuracy: 95.02777777777777 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 5602 Loss: 265059.9432797432
+Epoch: 1 Total_correct: 6300 Loss: 23.633449882268906
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 6172 Loss: 15.97734522819519
+Epoch: 1 Total_correct: 6969 Loss: 10.511163979768753
+
+Results on test dataset:
+	Total correct:3169/3600
+	Accuracy: 88.02777777777777 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 5936 Loss: 64.28958803415298
+Epoch: 1 Total_correct: 6300 Loss: 15.762644052505493
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 5876 Loss: 429829.0668051243
+Epoch: 1 Total_correct: 6300 Loss: 18.203569263219833
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 6000 Loss: 8.178622841835022
+Epoch: 1 Total_correct: 6698 Loss: 6.136301219463348
+
+Results on test dataset:
+	Total correct:3105/3600
+	Accuracy: 86.25 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 5421 Loss: 251.444609105587
+Epoch: 1 Total_correct: 6318 Loss: 7.570795178413391
+
+Results on test dataset:
+	Total correct:2731/3600
+	Accuracy: 75.86111111111111 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 4736 Loss: 514688.6223940253
+Epoch: 1 Total_correct: 5084 Loss: 23.99545055627823
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 6326 Loss: 22.227454513311386
+Epoch: 1 Total_correct: 7644 Loss: 9.217403560876846
+Epoch: 2 Total_correct: 7898 Loss: 6.255382061004639
+Epoch: 3 Total_correct: 7975 Loss: 5.354107417166233
+Epoch: 4 Total_correct: 8041 Loss: 4.361166939139366
+
+Results on test dataset:
+	Total correct:3473/3600
+	Accuracy: 96.47222222222223 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 6551 Loss: 109.338050827384
+Epoch: 1 Total_correct: 7794 Loss: 8.060042962431908
+Epoch: 2 Total_correct: 7978 Loss: 5.826176807284355
+Epoch: 3 Total_correct: 7983 Loss: 5.924917172640562
+Epoch: 4 Total_correct: 8222 Loss: 2.5113780349493027
+
+Results on test dataset:
+	Total correct:3513/3600
+	Accuracy: 97.58333333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 4822 Loss: 326553.53536099195
+Epoch: 1 Total_correct: 6112 Loss: 26.567157745361328
+Epoch: 2 Total_correct: 6300 Loss: 23.63593617081642
+Epoch: 3 Total_correct: 6300 Loss: 23.627986520528793
+Epoch: 4 Total_correct: 6300 Loss: 23.62262734770775
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 6220 Loss: 15.692831575870514
+Epoch: 1 Total_correct: 7355 Loss: 7.730850905179977
+Epoch: 2 Total_correct: 7758 Loss: 5.127340108156204
+Epoch: 3 Total_correct: 7984 Loss: 3.466103620827198
+Epoch: 4 Total_correct: 8107 Loss: 2.5099900402128696
+
+Results on test dataset:
+	Total correct:3500/3600
+	Accuracy: 97.22222222222223 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 6132 Loss: 100.62389850616455
+Epoch: 1 Total_correct: 6300 Loss: 15.610714673995972
+Epoch: 2 Total_correct: 6300 Loss: 15.042790681123734
+Epoch: 3 Total_correct: 6300 Loss: 41.51160588860512
+Epoch: 4 Total_correct: 6300 Loss: 15.780756205320358
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 5244 Loss: 55731.22443652153
+Epoch: 1 Total_correct: 6300 Loss: 15.978336989879608
+Epoch: 2 Total_correct: 6300 Loss: 15.767850995063782
+Epoch: 3 Total_correct: 6300 Loss: 15.756629645824432
+Epoch: 4 Total_correct: 6300 Loss: 15.758814632892609
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 6300 Loss: 7.828011363744736
+Epoch: 1 Total_correct: 6915 Loss: 5.423900604248047
+Epoch: 2 Total_correct: 7546 Loss: 3.297187924385071
+Epoch: 3 Total_correct: 7741 Loss: 2.6637835949659348
+Epoch: 4 Total_correct: 7865 Loss: 2.230567865073681
+
+Results on test dataset:
+	Total correct:3423/3600
+	Accuracy: 95.08333333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 5187 Loss: 242.89802902936935
+Epoch: 1 Total_correct: 6317 Loss: 7.088992118835449
+Epoch: 2 Total_correct: 6950 Loss: 5.636836975812912
+Epoch: 3 Total_correct: 7471 Loss: 3.715895876288414
+Epoch: 4 Total_correct: 7443 Loss: 3.919947311282158
+
+Results on test dataset:
+	Total correct:3313/3600
+	Accuracy: 92.02777777777777 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 5406 Loss: 124264.13079375029
+Epoch: 1 Total_correct: 6300 Loss: 8.09204763174057
+Epoch: 2 Total_correct: 6300 Loss: 8.021722555160522
+Epoch: 3 Total_correct: 6300 Loss: 7.909657955169678
+Epoch: 4 Total_correct: 6300 Loss: 7.889309525489807
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 6747 Loss: 17.3854341506958
+Epoch: 1 Total_correct: 7779 Loss: 7.762778736650944
+Epoch: 2 Total_correct: 7889 Loss: 6.45410431176424
+Epoch: 3 Total_correct: 7926 Loss: 6.189653404057026
+Epoch: 4 Total_correct: 7960 Loss: 5.5434341840445995
+Epoch: 5 Total_correct: 8003 Loss: 4.996883936226368
+Epoch: 6 Total_correct: 8086 Loss: 3.93122885748744
+
+Results on test dataset:
+	Total correct:3480/3600
+	Accuracy: 96.66666666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 6232 Loss: 163.83743447065353
+Epoch: 1 Total_correct: 6300 Loss: 22.41879004240036
+Epoch: 2 Total_correct: 6352 Loss: 20.85655841231346
+Epoch: 3 Total_correct: 6300 Loss: 23.65733739733696
+Epoch: 4 Total_correct: 6300 Loss: 23.63363391160965
+Epoch: 5 Total_correct: 6300 Loss: 23.630823999643326
+Epoch: 6 Total_correct: 6300 Loss: 23.6320803463459
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 5764 Loss: 306491.1047847867
+Epoch: 1 Total_correct: 6300 Loss: 23.680650144815445
+Epoch: 2 Total_correct: 6300 Loss: 23.647567212581635
+Epoch: 3 Total_correct: 6300 Loss: 23.649469941854477
+Epoch: 4 Total_correct: 6300 Loss: 23.642410963773727
+Epoch: 5 Total_correct: 6300 Loss: 23.632748752832413
+Epoch: 6 Total_correct: 6300 Loss: 23.633793860673904
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 6480 Loss: 14.277545273303986
+Epoch: 1 Total_correct: 7482 Loss: 6.937017634510994
+Epoch: 2 Total_correct: 7803 Loss: 4.871619164943695
+Epoch: 3 Total_correct: 7919 Loss: 4.194248221814632
+Epoch: 4 Total_correct: 8052 Loss: 3.122832715511322
+Epoch: 5 Total_correct: 8107 Loss: 2.6267226338386536
+Epoch: 6 Total_correct: 8189 Loss: 1.9747028537094593
+
+Results on test dataset:
+	Total correct:3503/3600
+	Accuracy: 97.30555555555556 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 5752 Loss: 140.0129113793373
+Epoch: 1 Total_correct: 6631 Loss: 14.101336359977722
+Epoch: 2 Total_correct: 7362 Loss: 7.673226833343506
+Epoch: 3 Total_correct: 7712 Loss: 5.270449183881283
+Epoch: 4 Total_correct: 8036 Loss: 3.1054648756980896
+Epoch: 5 Total_correct: 8167 Loss: 2.058810405433178
+Epoch: 6 Total_correct: 8230 Loss: 1.4990753140300512
+
+Results on test dataset:
+	Total correct:3530/3600
+	Accuracy: 98.05555555555556 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 5664 Loss: 1544915.6989130974
+Epoch: 1 Total_correct: 6300 Loss: 15.753146022558212
+Epoch: 2 Total_correct: 6300 Loss: 15.761831998825073
+Epoch: 3 Total_correct: 6300 Loss: 15.76578551530838
+Epoch: 4 Total_correct: 6300 Loss: 15.76709109544754
+Epoch: 5 Total_correct: 6300 Loss: 15.767457783222198
+Epoch: 6 Total_correct: 6300 Loss: 15.767456531524658
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 6295 Loss: 9.244071245193481
+Epoch: 1 Total_correct: 6520 Loss: 6.6602009534835815
+Epoch: 2 Total_correct: 7339 Loss: 4.024341121315956
+Epoch: 3 Total_correct: 7683 Loss: 2.8101531267166138
+Epoch: 4 Total_correct: 7781 Loss: 2.4154575169086456
+Epoch: 5 Total_correct: 7913 Loss: 2.0568045154213905
+Epoch: 6 Total_correct: 7979 Loss: 1.743479736149311
+
+Results on test dataset:
+	Total correct:3447/3600
+	Accuracy: 95.75 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 5252 Loss: 88.08169764280319
+Epoch: 1 Total_correct: 6300 Loss: 8.079040169715881
+Epoch: 2 Total_correct: 6300 Loss: 7.8987995982170105
+Epoch: 3 Total_correct: 6300 Loss: 7.874124825000763
+Epoch: 4 Total_correct: 6300 Loss: 7.884891629219055
+Epoch: 5 Total_correct: 6300 Loss: 7.886598348617554
+Epoch: 6 Total_correct: 6300 Loss: 7.884202718734741
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 4544 Loss: 473588.1125547886
+Epoch: 1 Total_correct: 5408 Loss: 27.223058879375458
+Epoch: 2 Total_correct: 5726 Loss: 10.530991911888123
+Epoch: 3 Total_correct: 6300 Loss: 8.340934872627258
+Epoch: 4 Total_correct: 6300 Loss: 8.006182134151459
+Epoch: 5 Total_correct: 6300 Loss: 7.909475088119507
+Epoch: 6 Total_correct: 6300 Loss: 7.88647997379303
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 6681 Loss: 18.13465839624405
+Epoch: 1 Total_correct: 7642 Loss: 9.051726639270782
+Epoch: 2 Total_correct: 7944 Loss: 5.855632662773132
+Epoch: 3 Total_correct: 8096 Loss: 3.909278381615877
+Epoch: 4 Total_correct: 8235 Loss: 2.1922553945332766
+Epoch: 5 Total_correct: 8286 Loss: 1.5049468372017145
+Epoch: 6 Total_correct: 8349 Loss: 0.8230902012437582
+Epoch: 7 Total_correct: 8360 Loss: 0.5894686284009367
+Epoch: 8 Total_correct: 8366 Loss: 0.5020862866658717
+Epoch: 9 Total_correct: 8376 Loss: 0.3281349178869277
+
+Results on test dataset:
+	Total correct:3536/3600
+	Accuracy: 98.22222222222223 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 6015 Loss: 248.96015256643295
+Epoch: 1 Total_correct: 6300 Loss: 23.47297763824463
+Epoch: 2 Total_correct: 6300 Loss: 23.773273646831512
+Epoch: 3 Total_correct: 6300 Loss: 23.6208997964859
+Epoch: 4 Total_correct: 6300 Loss: 23.62331709265709
+Epoch: 5 Total_correct: 6300 Loss: 23.624728858470917
+Epoch: 6 Total_correct: 6300 Loss: 23.625203639268875
+Epoch: 7 Total_correct: 6300 Loss: 23.625358074903488
+Epoch: 8 Total_correct: 6300 Loss: 23.625433444976807
+Epoch: 9 Total_correct: 6300 Loss: 23.62547141313553
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 5500 Loss: 469064.6333671808
+Epoch: 1 Total_correct: 6300 Loss: 23.624480336904526
+Epoch: 2 Total_correct: 6300 Loss: 23.631200462579727
+Epoch: 3 Total_correct: 6300 Loss: 23.6317518055439
+Epoch: 4 Total_correct: 6300 Loss: 23.633385241031647
+Epoch: 5 Total_correct: 6300 Loss: 23.63376885652542
+Epoch: 6 Total_correct: 6300 Loss: 23.63198545575142
+Epoch: 7 Total_correct: 6300 Loss: 23.629614382982254
+Epoch: 8 Total_correct: 6300 Loss: 23.62738662958145
+Epoch: 9 Total_correct: 6300 Loss: 23.625551968812943
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 6490 Loss: 13.897147744894028
+Epoch: 1 Total_correct: 7743 Loss: 5.271390862762928
+Epoch: 2 Total_correct: 7981 Loss: 3.524500459432602
+Epoch: 3 Total_correct: 8063 Loss: 2.7849932834506035
+Epoch: 4 Total_correct: 8106 Loss: 2.502884704619646
+Epoch: 5 Total_correct: 8161 Loss: 2.1115858405828476
+Epoch: 6 Total_correct: 8234 Loss: 1.5769439414143562
+Epoch: 7 Total_correct: 8272 Loss: 1.2292607985436916
+Epoch: 8 Total_correct: 8257 Loss: 1.2358892485499382
+Epoch: 9 Total_correct: 8283 Loss: 0.9898537187837064
+
+Results on test dataset:
+	Total correct:3536/3600
+	Accuracy: 98.22222222222223 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 5704 Loss: 252.92487663030624
+Epoch: 1 Total_correct: 6300 Loss: 15.772022545337677
+Epoch: 2 Total_correct: 6300 Loss: 15.781642973423004
+Epoch: 3 Total_correct: 6300 Loss: 15.76621812582016
+Epoch: 4 Total_correct: 6300 Loss: 15.759068429470062
+Epoch: 5 Total_correct: 6300 Loss: 15.757282316684723
+Epoch: 6 Total_correct: 6300 Loss: 15.755887150764465
+Epoch: 7 Total_correct: 6300 Loss: 15.75596672296524
+Epoch: 8 Total_correct: 6300 Loss: 15.756452679634094
+Epoch: 9 Total_correct: 6300 Loss: 15.756926655769348
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 5228 Loss: 397151.3378417492
+Epoch: 1 Total_correct: 6300 Loss: 16.388212621212006
+Epoch: 2 Total_correct: 6300 Loss: 16.468701481819153
+Epoch: 3 Total_correct: 6300 Loss: 15.879834353923798
+Epoch: 4 Total_correct: 6300 Loss: 15.924438416957855
+Epoch: 5 Total_correct: 6300 Loss: 15.98489797115326
+Epoch: 6 Total_correct: 6300 Loss: 16.068220227956772
+Epoch: 7 Total_correct: 6300 Loss: 15.881759732961655
+Epoch: 8 Total_correct: 6300 Loss: 15.82709151506424
+Epoch: 9 Total_correct: 6300 Loss: 15.796271979808807
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 6000 Loss: 9.358049213886261
+Epoch: 1 Total_correct: 6312 Loss: 7.100973516702652
+Epoch: 2 Total_correct: 7067 Loss: 4.902317106723785
+Epoch: 3 Total_correct: 7346 Loss: 3.833817958831787
+Epoch: 4 Total_correct: 7529 Loss: 3.2931047827005386
+Epoch: 5 Total_correct: 7620 Loss: 2.968699187040329
+Epoch: 6 Total_correct: 7675 Loss: 2.844658598303795
+Epoch: 7 Total_correct: 7731 Loss: 2.6638972610235214
+Epoch: 8 Total_correct: 7811 Loss: 2.3545386344194412
+Epoch: 9 Total_correct: 7859 Loss: 2.161061331629753
+
+Results on test dataset:
+	Total correct:3409/3600
+	Accuracy: 94.69444444444444 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 5114 Loss: 139.00904494524002
+Epoch: 1 Total_correct: 6300 Loss: 7.928262889385223
+Epoch: 2 Total_correct: 6300 Loss: 7.782280921936035
+Epoch: 3 Total_correct: 6417 Loss: 7.33204185962677
+Epoch: 4 Total_correct: 6639 Loss: 6.710124462842941
+Epoch: 5 Total_correct: 6825 Loss: 6.06473433971405
+Epoch: 6 Total_correct: 7044 Loss: 5.438496619462967
+Epoch: 7 Total_correct: 7091 Loss: 5.4741014540195465
+Epoch: 8 Total_correct: 7144 Loss: 4.960813403129578
+Epoch: 9 Total_correct: 7343 Loss: 4.290274232625961
+
+Results on test dataset:
+	Total correct:3206/3600
+	Accuracy: 89.05555555555556 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.3%	Percentage of test data:0.3	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 4834 Loss: 541682.0311840177
+Epoch: 1 Total_correct: 6300 Loss: 7.890236794948578
+Epoch: 2 Total_correct: 6300 Loss: 7.88246762752533
+Epoch: 3 Total_correct: 6300 Loss: 7.886929154396057
+Epoch: 4 Total_correct: 6300 Loss: 7.879927337169647
+Epoch: 5 Total_correct: 6300 Loss: 7.875688552856445
+Epoch: 6 Total_correct: 6300 Loss: 7.875945687294006
+Epoch: 7 Total_correct: 6300 Loss: 7.875624358654022
+Epoch: 8 Total_correct: 6300 Loss: 7.875136137008667
+Epoch: 9 Total_correct: 6300 Loss: 7.875076770782471
+
+Results on test dataset:
+	Total correct:2700/3600
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+index_train = (7200,)
+index_test = (4800,)
+X_train shape = (7200, 3, 80, 80)
+y_train shape = (7200,)
+
+
+X_test shape = (4800, 3, 80, 80)
+y_test shape = (4800,)
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 5888 Loss: 14.266309425234795
+Epoch: 1 Total_correct: 6655 Loss: 6.552462533116341
+
+Results on test dataset:
+	Total correct:4571/4800
+	Accuracy: 95.22916666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 5376 Loss: 69.83214291930199
+Epoch: 1 Total_correct: 5404 Loss: 19.86660087108612
+
+Results on test dataset:
+	Total correct:3615/4800
+	Accuracy: 75.3125 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:2
+
+Epoch: 0 Total_correct: 4366 Loss: 1018323.6797294915
+Epoch: 1 Total_correct: 5100 Loss: 23.97687542438507
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 5495 Loss: 11.875595152378082
+Epoch: 1 Total_correct: 6381 Loss: 6.071443185210228
+
+Results on test dataset:
+	Total correct:4444/4800
+	Accuracy: 92.58333333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 4745 Loss: 305.48411080241203
+Epoch: 1 Total_correct: 6096 Loss: 8.706853911280632
+
+Results on test dataset:
+	Total correct:4435/4800
+	Accuracy: 92.39583333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:2
+
+Epoch: 0 Total_correct: 4534 Loss: 873272.1137725115
+Epoch: 1 Total_correct: 5256 Loss: 14.754502952098846
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 5416 Loss: 6.393861800432205
+Epoch: 1 Total_correct: 6159 Loss: 3.60310597717762
+
+Results on test dataset:
+	Total correct:4377/4800
+	Accuracy: 91.1875 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 4198 Loss: 174.76330810785294
+Epoch: 1 Total_correct: 5451 Loss: 5.911459177732468
+
+Results on test dataset:
+	Total correct:4119/4800
+	Accuracy: 85.8125 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:2
+
+Epoch: 0 Total_correct: 3584 Loss: 1266898.880586028
+Epoch: 1 Total_correct: 4818 Loss: 94.42299592494965
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 5903 Loss: 14.727361366152763
+Epoch: 1 Total_correct: 6773 Loss: 5.418389819562435
+Epoch: 2 Total_correct: 6898 Loss: 3.7846466787159443
+Epoch: 3 Total_correct: 6976 Loss: 3.0098163075745106
+Epoch: 4 Total_correct: 7023 Loss: 2.4006825238466263
+
+Results on test dataset:
+	Total correct:4654/4800
+	Accuracy: 96.95833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 5263 Loss: 76.18741917610168
+Epoch: 1 Total_correct: 6157 Loss: 11.79493823647499
+Epoch: 2 Total_correct: 6178 Loss: 11.902418375015259
+Epoch: 3 Total_correct: 6363 Loss: 9.750252366065979
+Epoch: 4 Total_correct: 6563 Loss: 7.761825621128082
+
+Results on test dataset:
+	Total correct:4466/4800
+	Accuracy: 93.04166666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:5
+
+Epoch: 0 Total_correct: 4426 Loss: 1082485.2397603989
+Epoch: 1 Total_correct: 5210 Loss: 22.006792664527893
+Epoch: 2 Total_correct: 5400 Loss: 20.96714574098587
+Epoch: 3 Total_correct: 5400 Loss: 21.04771786928177
+Epoch: 4 Total_correct: 5400 Loss: 20.767960846424103
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 5400 Loss: 14.038545429706573
+Epoch: 1 Total_correct: 5751 Loss: 10.425880700349808
+Epoch: 2 Total_correct: 6382 Loss: 6.312308207154274
+Epoch: 3 Total_correct: 6629 Loss: 4.485085487365723
+Epoch: 4 Total_correct: 6747 Loss: 3.765394113957882
+
+Results on test dataset:
+	Total correct:4569/4800
+	Accuracy: 95.1875 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 5371 Loss: 155.35323555767536
+Epoch: 1 Total_correct: 6452 Loss: 6.042775630950928
+Epoch: 2 Total_correct: 6692 Loss: 4.304339326918125
+Epoch: 3 Total_correct: 6832 Loss: 3.2642339281737804
+Epoch: 4 Total_correct: 6955 Loss: 2.0115397088229656
+
+Results on test dataset:
+	Total correct:4674/4800
+	Accuracy: 97.375 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:5
+
+Epoch: 0 Total_correct: 4048 Loss: 246041.66002351046
+Epoch: 1 Total_correct: 4630 Loss: 29.849620461463928
+Epoch: 2 Total_correct: 4540 Loss: 16.926690936088562
+Epoch: 3 Total_correct: 5400 Loss: 14.407269716262817
+Epoch: 4 Total_correct: 5400 Loss: 14.0029296875
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 4850 Loss: 7.471542179584503
+Epoch: 1 Total_correct: 5586 Loss: 5.6504360139369965
+Epoch: 2 Total_correct: 6219 Loss: 3.769937127828598
+Epoch: 3 Total_correct: 6516 Loss: 2.750184118747711
+Epoch: 4 Total_correct: 6636 Loss: 2.2890543043613434
+
+Results on test dataset:
+	Total correct:4471/4800
+	Accuracy: 93.14583333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 4368 Loss: 116.39777135848999
+Epoch: 1 Total_correct: 5400 Loss: 6.834758520126343
+Epoch: 2 Total_correct: 5400 Loss: 6.772081434726715
+Epoch: 3 Total_correct: 5400 Loss: 6.724247395992279
+Epoch: 4 Total_correct: 5400 Loss: 6.298229098320007
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:5
+
+Epoch: 0 Total_correct: 3893 Loss: 486597.89136332273
+Epoch: 1 Total_correct: 4234 Loss: 3899.9966955184937
+Epoch: 2 Total_correct: 4772 Loss: 325.51115369796753
+Epoch: 3 Total_correct: 4836 Loss: 615.174708366394
+Epoch: 4 Total_correct: 3620 Loss: 103.41382509469986
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 5773 Loss: 15.108684360980988
+Epoch: 1 Total_correct: 6646 Loss: 6.791461564600468
+Epoch: 2 Total_correct: 6818 Loss: 4.965418070554733
+Epoch: 3 Total_correct: 6892 Loss: 3.8410081937909126
+Epoch: 4 Total_correct: 7045 Loss: 2.1629519909620285
+Epoch: 5 Total_correct: 7119 Loss: 1.222813951317221
+Epoch: 6 Total_correct: 7167 Loss: 0.66356754116714
+
+Results on test dataset:
+	Total correct:4749/4800
+	Accuracy: 98.9375 %
+------------------------------------------------------------------------------------------------
+
+***********************************
+Acc = 98.9375 % > 98.875 %	 NEW MODEL SAVED: Model_7_200_40_0001.pt
+***********************************
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 5528 Loss: 377.5777208507061
+Epoch: 1 Total_correct: 6676 Loss: 6.340453118085861
+Epoch: 2 Total_correct: 6843 Loss: 4.912938218563795
+Epoch: 3 Total_correct: 6980 Loss: 2.9798982590436935
+Epoch: 4 Total_correct: 7024 Loss: 2.3117246758192778
+Epoch: 5 Total_correct: 7064 Loss: 1.8041381239891052
+Epoch: 6 Total_correct: 7088 Loss: 1.6010545007884502
+
+Results on test dataset:
+	Total correct:4678/4800
+	Accuracy: 97.45833333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:7
+
+Epoch: 0 Total_correct: 4414 Loss: 939724.1412393153
+Epoch: 1 Total_correct: 5400 Loss: 20.8296919465065
+Epoch: 2 Total_correct: 5400 Loss: 20.371812224388123
+Epoch: 3 Total_correct: 5400 Loss: 20.43641421198845
+Epoch: 4 Total_correct: 5400 Loss: 20.40362858772278
+Epoch: 5 Total_correct: 5400 Loss: 20.37403956055641
+Epoch: 6 Total_correct: 5400 Loss: 20.369405448436737
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 5346 Loss: 12.410839527845383
+Epoch: 1 Total_correct: 6393 Loss: 6.097998231649399
+Epoch: 2 Total_correct: 6744 Loss: 3.8834864497184753
+Epoch: 3 Total_correct: 6872 Loss: 2.7916642874479294
+Epoch: 4 Total_correct: 6957 Loss: 2.123566623777151
+Epoch: 5 Total_correct: 6996 Loss: 1.8005695901811123
+Epoch: 6 Total_correct: 7046 Loss: 1.4313321746885777
+
+Results on test dataset:
+	Total correct:4731/4800
+	Accuracy: 98.5625 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 5324 Loss: 267.94765707850456
+Epoch: 1 Total_correct: 5991 Loss: 10.08508813381195
+Epoch: 2 Total_correct: 6562 Loss: 5.305534325540066
+Epoch: 3 Total_correct: 6966 Loss: 2.0704105403274298
+Epoch: 4 Total_correct: 7051 Loss: 1.3233681209385395
+Epoch: 5 Total_correct: 7110 Loss: 0.9098343038931489
+Epoch: 6 Total_correct: 7144 Loss: 0.5084741450846195
+
+Results on test dataset:
+	Total correct:4598/4800
+	Accuracy: 95.79166666666667 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:7
+
+Epoch: 0 Total_correct: 4788 Loss: 637845.2482562065
+Epoch: 1 Total_correct: 5124 Loss: 14.158533036708832
+Epoch: 2 Total_correct: 5400 Loss: 13.502635955810547
+Epoch: 3 Total_correct: 5400 Loss: 13.505358278751373
+Epoch: 4 Total_correct: 5400 Loss: 13.507902801036835
+Epoch: 5 Total_correct: 5400 Loss: 13.510249614715576
+Epoch: 6 Total_correct: 5400 Loss: 13.513457655906677
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 5130 Loss: 6.993994891643524
+Epoch: 1 Total_correct: 5668 Loss: 5.296696454286575
+Epoch: 2 Total_correct: 6295 Loss: 3.360204502940178
+Epoch: 3 Total_correct: 6596 Loss: 2.4659294188022614
+Epoch: 4 Total_correct: 6758 Loss: 1.7987220883369446
+Epoch: 5 Total_correct: 6862 Loss: 1.4924629181623459
+Epoch: 6 Total_correct: 6915 Loss: 1.2073621600866318
+
+Results on test dataset:
+	Total correct:4609/4800
+	Accuracy: 96.02083333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 4452 Loss: 90.8151741027832
+Epoch: 1 Total_correct: 5764 Loss: 4.952056437730789
+Epoch: 2 Total_correct: 6273 Loss: 3.4769532531499863
+Epoch: 3 Total_correct: 6562 Loss: 2.569204792380333
+Epoch: 4 Total_correct: 6835 Loss: 1.490286998450756
+Epoch: 5 Total_correct: 6950 Loss: 1.1069316901266575
+Epoch: 6 Total_correct: 7030 Loss: 0.7348452247679234
+
+Results on test dataset:
+	Total correct:4683/4800
+	Accuracy: 97.5625 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:7
+
+Epoch: 0 Total_correct: 3987 Loss: 1126461.5164061189
+Epoch: 1 Total_correct: 5124 Loss: 7.413911700248718
+Epoch: 2 Total_correct: 5400 Loss: 8.121003687381744
+Epoch: 3 Total_correct: 5400 Loss: 8.069062292575836
+Epoch: 4 Total_correct: 5400 Loss: 6.7775572538375854
+Epoch: 5 Total_correct: 5400 Loss: 6.756417274475098
+Epoch: 6 Total_correct: 5400 Loss: 6.752997279167175
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 5853 Loss: 14.287277266383171
+Epoch: 1 Total_correct: 6677 Loss: 6.6752467304468155
+Epoch: 2 Total_correct: 6796 Loss: 5.162817686796188
+Epoch: 3 Total_correct: 6899 Loss: 3.8642417453229427
+Epoch: 4 Total_correct: 7014 Loss: 2.5095960833132267
+Epoch: 5 Total_correct: 7108 Loss: 1.344599399715662
+Epoch: 6 Total_correct: 7126 Loss: 1.0037555964663625
+Epoch: 7 Total_correct: 7157 Loss: 0.6905759868677706
+Epoch: 8 Total_correct: 7178 Loss: 0.3341689355438575
+Epoch: 9 Total_correct: 7175 Loss: 0.3518711414653808
+
+Results on test dataset:
+	Total correct:4731/4800
+	Accuracy: 98.5625 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 5221 Loss: 88.70795205235481
+Epoch: 1 Total_correct: 5400 Loss: 19.97699910402298
+Epoch: 2 Total_correct: 6111 Loss: 13.217078626155853
+Epoch: 3 Total_correct: 6793 Loss: 5.079027637839317
+Epoch: 4 Total_correct: 7041 Loss: 2.2584024220705032
+Epoch: 5 Total_correct: 7097 Loss: 1.3085556561127305
+Epoch: 6 Total_correct: 7158 Loss: 0.6614697589538991
+Epoch: 7 Total_correct: 7114 Loss: 1.2361628410872072
+Epoch: 8 Total_correct: 7145 Loss: 0.8279097263293806
+Epoch: 9 Total_correct: 7120 Loss: 1.0903144553303719
+
+Results on test dataset:
+	Total correct:4717/4800
+	Accuracy: 98.27083333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 200	Nb epoches:10
+
+Epoch: 0 Total_correct: 4391 Loss: 1041259.8556738496
+Epoch: 1 Total_correct: 5400 Loss: 20.739540338516235
+Epoch: 2 Total_correct: 5400 Loss: 20.30599284172058
+Epoch: 3 Total_correct: 5400 Loss: 20.33749410510063
+Epoch: 4 Total_correct: 5400 Loss: 20.34883877635002
+Epoch: 5 Total_correct: 5400 Loss: 20.335889518260956
+Epoch: 6 Total_correct: 5400 Loss: 20.320070505142212
+Epoch: 7 Total_correct: 5400 Loss: 20.311710715293884
+Epoch: 8 Total_correct: 5400 Loss: 20.309941202402115
+Epoch: 9 Total_correct: 5400 Loss: 20.311319231987
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 5372 Loss: 12.958904445171356
+Epoch: 1 Total_correct: 6225 Loss: 7.213125169277191
+Epoch: 2 Total_correct: 6628 Loss: 4.63043487071991
+Epoch: 3 Total_correct: 6714 Loss: 3.893936976790428
+Epoch: 4 Total_correct: 6829 Loss: 2.925546534359455
+Epoch: 5 Total_correct: 6952 Loss: 2.1668331138789654
+Epoch: 6 Total_correct: 7046 Loss: 1.3191808201372623
+Epoch: 7 Total_correct: 7099 Loss: 0.9825416542589664
+Epoch: 8 Total_correct: 7114 Loss: 0.8272697431966662
+Epoch: 9 Total_correct: 6970 Loss: 2.1258268831297755
+
+Results on test dataset:
+	Total correct:4692/4800
+	Accuracy: 97.75 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 4963 Loss: 74.14017581939697
+Epoch: 1 Total_correct: 5410 Loss: 12.565001547336578
+Epoch: 2 Total_correct: 5848 Loss: 11.078845337033272
+Epoch: 3 Total_correct: 6432 Loss: 6.067344971001148
+Epoch: 4 Total_correct: 6864 Loss: 2.9511506520211697
+Epoch: 5 Total_correct: 7012 Loss: 1.599374197423458
+Epoch: 6 Total_correct: 7039 Loss: 1.5078767305240035
+Epoch: 7 Total_correct: 7059 Loss: 1.15291859023273
+Epoch: 8 Total_correct: 7127 Loss: 0.6876699482090771
+Epoch: 9 Total_correct: 7119 Loss: 0.7986187664791942
+
+Results on test dataset:
+	Total correct:4699/4800
+	Accuracy: 97.89583333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 300	Nb epoches:10
+
+Epoch: 0 Total_correct: 3996 Loss: 2003851.3039095402
+Epoch: 1 Total_correct: 4642 Loss: 326.6361221075058
+Epoch: 2 Total_correct: 4510 Loss: 57.80781668424606
+Epoch: 3 Total_correct: 4656 Loss: 19.283927023410797
+Epoch: 4 Total_correct: 5400 Loss: 13.803613603115082
+Epoch: 5 Total_correct: 5400 Loss: 13.69310748577118
+Epoch: 6 Total_correct: 5400 Loss: 13.753884971141815
+Epoch: 7 Total_correct: 5400 Loss: 13.625601291656494
+Epoch: 8 Total_correct: 5400 Loss: 13.62479305267334
+Epoch: 9 Total_correct: 5400 Loss: 13.675886690616608
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.001	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 5162 Loss: 6.858693540096283
+Epoch: 1 Total_correct: 5814 Loss: 4.975958198308945
+Epoch: 2 Total_correct: 6284 Loss: 3.350406602025032
+Epoch: 3 Total_correct: 6585 Loss: 2.399592950940132
+Epoch: 4 Total_correct: 6797 Loss: 1.7405023947358131
+Epoch: 5 Total_correct: 6889 Loss: 1.3537479937076569
+Epoch: 6 Total_correct: 6918 Loss: 1.195910520851612
+Epoch: 7 Total_correct: 7011 Loss: 0.8752448819577694
+Epoch: 8 Total_correct: 7052 Loss: 0.6766764484345913
+Epoch: 9 Total_correct: 7085 Loss: 0.5272641871124506
+
+Results on test dataset:
+	Total correct:4729/4800
+	Accuracy: 98.52083333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.01	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 3988 Loss: 121.62455356121063
+Epoch: 1 Total_correct: 5127 Loss: 13.654083013534546
+Epoch: 2 Total_correct: 5400 Loss: 6.922684669494629
+Epoch: 3 Total_correct: 5400 Loss: 6.268154054880142
+Epoch: 4 Total_correct: 6023 Loss: 5.140111178159714
+Epoch: 5 Total_correct: 6191 Loss: 4.232797533273697
+Epoch: 6 Total_correct: 6330 Loss: 3.666574329137802
+Epoch: 7 Total_correct: 6161 Loss: 4.487026751041412
+Epoch: 8 Total_correct: 6474 Loss: 2.9761035293340683
+Epoch: 9 Total_correct: 6630 Loss: 2.2726107835769653
+
+Results on test dataset:
+	Total correct:4432/4800
+	Accuracy: 92.33333333333333 %
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+
+ex_net_v6.py
+Adam coef: 0.1	Train size: 0.4%	Percentage of test data:0.4	Batch size: 600	Nb epoches:10
+
+Epoch: 0 Total_correct: 3637 Loss: 621960.6801846027
+Epoch: 1 Total_correct: 4818 Loss: 153.25640177726746
+Epoch: 2 Total_correct: 4188 Loss: 53.06514823436737
+Epoch: 3 Total_correct: 4818 Loss: 39.78447908163071
+Epoch: 4 Total_correct: 4228 Loss: 41.571571826934814
+Epoch: 5 Total_correct: 4818 Loss: 28.508412420749664
+Epoch: 6 Total_correct: 4228 Loss: 21.040203154087067
+Epoch: 7 Total_correct: 4502 Loss: 12.702007710933685
+Epoch: 8 Total_correct: 5104 Loss: 7.808041453361511
+Epoch: 9 Total_correct: 5400 Loss: 6.930173099040985
+
+Results on test dataset:
+	Total correct:3600/4800
+	Accuracy: 75.0 %
+------------------------------------------------------------------------------------------------
+
+[31m
+main_v6.py: ----------------- Part 4 Display results[0m
+     Epoches  Batchs  Accuracies  Test_size  Adam_coef   Loss     Timer   Mem_current      Mem_peak      Mem_diff
+0        2.0   200.0       94.29        0.2      0.001   8.18  109.3052  7.975100e+04  1.410700e+05  6.131900e+04
+1        2.0   200.0       75.00        0.2      0.010  26.33   80.8420  1.815440e+05  2.428630e+05  6.131900e+04
+2        2.0   200.0       75.00        0.2      0.100  29.75  314.6221  2.138020e+05  2.751210e+05  6.131900e+04
+3        2.0   300.0       95.96        0.2      0.001   5.91  203.3818  2.194940e+05  3.107330e+05  9.123900e+04
+4        2.0   300.0       75.00        0.2      0.010  15.67   64.6198  3.127040e+05  4.041510e+05  9.144700e+04
+..       ...     ...         ...        ...        ...    ...       ...           ...           ...           ...
+103     10.0   300.0       97.90        0.4      0.010   0.80  183.7081  1.843821e+09  3.133987e+09  1.290166e+09
+104     10.0   300.0       75.00        0.4      0.100  13.68  148.3933  1.843828e+09  3.133987e+09  1.290159e+09
+105     10.0   600.0       98.52        0.4      0.001   0.53  370.2316  1.843801e+09  3.133987e+09  1.290186e+09
+106     10.0   600.0       92.33        0.4      0.010   2.27  244.0567  1.843808e+09  3.133987e+09  1.290179e+09
+107     10.0   600.0       75.00        0.4      0.100   6.93  253.6399  1.843806e+09  3.133987e+09  1.290180e+09
+
+[108 rows x 10 columns]
+
+
+
+Best Accuracy:
+Epoches        7.000000e+00
+Batchs         2.000000e+02
+Accuracies     9.894000e+01
+Test_size      4.000000e-01
+Adam_coef      1.000000e-03
+Loss           6.600000e-01
+Timer          1.154717e+02
+Mem_current    1.843806e+09
+Mem_peak       3.133987e+09
+Mem_diff       1.290181e+09
+Name: 90, dtype: float64
+
+
+Model_7_200_40_0001.pt
+Optim_7_200_40_0001.pt
+
+
+Model's state_dict:
+conv1.weight 	 torch.Size([6, 3, 3, 3])
+conv1.bias 	 torch.Size([6])
+conv2.weight 	 torch.Size([12, 6, 3, 3])
+conv2.bias 	 torch.Size([12])
+fc1.weight 	 torch.Size([2400, 4800])
+fc1.bias 	 torch.Size([2400])
+fc2.weight 	 torch.Size([1200, 2400])
+fc2.bias 	 torch.Size([1200])
+out.weight 	 torch.Size([2, 1200])
+out.bias 	 torch.Size([2])
+
+

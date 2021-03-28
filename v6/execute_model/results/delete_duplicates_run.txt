@@ -1,0 +1,576 @@
+name = lb_2, stride = 10 epsilon = 40
+NB of ships  = 120
+NB of ships after filter = 47
+results/clean_images/lb_2__10__40__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 40 epsilon = 40
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/lb_4__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 10 epsilon = 40
+NB of ships  = 44
+NB of ships after filter = 16
+results/clean_images/lb_1__10__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 80 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_1__80__40__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 40 epsilon = 40
+NB of ships  = 3
+NB of ships after filter = 3
+results/clean_images/lb_3__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 20 epsilon = 40
+NB of ships  = 12
+NB of ships after filter = 7
+results/clean_images/lb_1__20__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 10 epsilon = 40
+NB of ships  = 39
+NB of ships after filter = 24
+results/clean_images/sfbay_3__10__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 20 epsilon = 40
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/sfbay_1__20__40__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 40 epsilon = 40
+NB of ships  = 8
+NB of ships after filter = 8
+results/clean_images/lb_2__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 20 epsilon = 40
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/lb_4__20__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 80 epsilon = 40
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_2__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 10 epsilon = 40
+NB of ships  = 28
+NB of ships after filter = 14
+results/clean_images/sfbay_2__10__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 40 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__40__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 40 epsilon = 40
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_1__40__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 20 epsilon = 40
+NB of ships  = 10
+NB of ships after filter = 8
+results/clean_images/sfbay_2__20__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 80 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 80 epsilon = 40
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_4__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 20 epsilon = 40
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_4__20__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 10 epsilon = 40
+NB of ships  = 35
+NB of ships after filter = 14
+results/clean_images/sfbay_1__10__40__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 40 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 80 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 40 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_4__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 80 epsilon = 40
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/lb_3__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 10 epsilon = 40
+NB of ships  = 19
+NB of ships after filter = 9
+results/clean_images/sfbay_4__10__40__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 10 epsilon = 40
+NB of ships  = 39
+NB of ships after filter = 22
+results/clean_images/lb_4__10__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 40 epsilon = 40
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/sfbay_2__40__40__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 10 epsilon = 40
+NB of ships  = 38
+NB of ships after filter = 15
+results/clean_images/lb_3__10__40__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 20 epsilon = 40
+NB of ships  = 34
+NB of ships after filter = 26
+results/clean_images/lb_2__20__40__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 20 epsilon = 40
+NB of ships  = 10
+NB of ships after filter = 7
+results/clean_images/lb_3__20__40__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 80 epsilon = 40
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/lb_2__80__40__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 80 epsilon = 40
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_4__80__40__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 20 epsilon = 40
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/sfbay_3__20__40__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 10 epsilon = 80
+NB of ships  = 120
+NB of ships after filter = 32
+results/clean_images/lb_2__10__80__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 40 epsilon = 80
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/lb_4__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 10 epsilon = 80
+NB of ships  = 44
+NB of ships after filter = 13
+results/clean_images/lb_1__10__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 80 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_1__80__80__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 40 epsilon = 80
+NB of ships  = 3
+NB of ships after filter = 3
+results/clean_images/lb_3__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 20 epsilon = 80
+NB of ships  = 12
+NB of ships after filter = 5
+results/clean_images/lb_1__20__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 10 epsilon = 80
+NB of ships  = 39
+NB of ships after filter = 21
+results/clean_images/sfbay_3__10__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 20 epsilon = 80
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/sfbay_1__20__80__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 40 epsilon = 80
+NB of ships  = 8
+NB of ships after filter = 8
+results/clean_images/lb_2__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 20 epsilon = 80
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/lb_4__20__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 80 epsilon = 80
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_2__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 10 epsilon = 80
+NB of ships  = 28
+NB of ships after filter = 13
+results/clean_images/sfbay_2__10__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 40 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__40__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 40 epsilon = 80
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_1__40__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 20 epsilon = 80
+NB of ships  = 10
+NB of ships after filter = 8
+results/clean_images/sfbay_2__20__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 80 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 80 epsilon = 80
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_4__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 20 epsilon = 80
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_4__20__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 10 epsilon = 80
+NB of ships  = 35
+NB of ships after filter = 14
+results/clean_images/sfbay_1__10__80__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 40 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 80 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 40 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_4__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 80 epsilon = 80
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/lb_3__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 10 epsilon = 80
+NB of ships  = 19
+NB of ships after filter = 9
+results/clean_images/sfbay_4__10__80__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 10 epsilon = 80
+NB of ships  = 39
+NB of ships after filter = 18
+results/clean_images/lb_4__10__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 40 epsilon = 80
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/sfbay_2__40__80__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 10 epsilon = 80
+NB of ships  = 38
+NB of ships after filter = 13
+results/clean_images/lb_3__10__80__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 20 epsilon = 80
+NB of ships  = 34
+NB of ships after filter = 19
+results/clean_images/lb_2__20__80__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 20 epsilon = 80
+NB of ships  = 10
+NB of ships after filter = 7
+results/clean_images/lb_3__20__80__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 80 epsilon = 80
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/lb_2__80__80__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 80 epsilon = 80
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_4__80__80__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 20 epsilon = 80
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/sfbay_3__20__80__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 10 epsilon = 160
+NB of ships  = 120
+NB of ships after filter = 27
+results/clean_images/lb_2__10__160__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 40 epsilon = 160
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/lb_4__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 10 epsilon = 160
+NB of ships  = 44
+NB of ships after filter = 10
+results/clean_images/lb_1__10__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 80 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_1__80__160__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 40 epsilon = 160
+NB of ships  = 3
+NB of ships after filter = 2
+results/clean_images/lb_3__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 20 epsilon = 160
+NB of ships  = 12
+NB of ships after filter = 5
+results/clean_images/lb_1__20__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 10 epsilon = 160
+NB of ships  = 39
+NB of ships after filter = 15
+results/clean_images/sfbay_3__10__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 20 epsilon = 160
+NB of ships  = 9
+NB of ships after filter = 8
+results/clean_images/sfbay_1__20__160__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 40 epsilon = 160
+NB of ships  = 8
+NB of ships after filter = 8
+results/clean_images/lb_2__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 20 epsilon = 160
+NB of ships  = 9
+NB of ships after filter = 8
+results/clean_images/lb_4__20__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 80 epsilon = 160
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_2__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 10 epsilon = 160
+NB of ships  = 28
+NB of ships after filter = 12
+results/clean_images/sfbay_2__10__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 40 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__40__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 40 epsilon = 160
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_1__40__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 20 epsilon = 160
+NB of ships  = 10
+NB of ships after filter = 8
+results/clean_images/sfbay_2__20__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 80 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_3__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 80 epsilon = 160
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/sfbay_4__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 20 epsilon = 160
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/sfbay_4__20__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_1, stride = 10 epsilon = 160
+NB of ships  = 35
+NB of ships after filter = 13
+results/clean_images/sfbay_1__10__160__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 40 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_1, stride = 80 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_1__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 40 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/sfbay_4__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 80 epsilon = 160
+NB of ships  = 0
+NB of ships after filter = 0
+results/clean_images/lb_3__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_4, stride = 10 epsilon = 160
+NB of ships  = 19
+NB of ships after filter = 7
+results/clean_images/sfbay_4__10__160__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 10 epsilon = 160
+NB of ships  = 39
+NB of ships after filter = 17
+results/clean_images/lb_4__10__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_2, stride = 40 epsilon = 160
+NB of ships  = 2
+NB of ships after filter = 2
+results/clean_images/sfbay_2__40__160__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 10 epsilon = 160
+NB of ships  = 38
+NB of ships after filter = 12
+results/clean_images/lb_3__10__160__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 20 epsilon = 160
+NB of ships  = 34
+NB of ships after filter = 17
+results/clean_images/lb_2__20__160__cleaned.png
+----------------------------------------------
+
+name = lb_3, stride = 20 epsilon = 160
+NB of ships  = 10
+NB of ships after filter = 5
+results/clean_images/lb_3__20__160__cleaned.png
+----------------------------------------------
+
+name = lb_2, stride = 80 epsilon = 160
+NB of ships  = 5
+NB of ships after filter = 5
+results/clean_images/lb_2__80__160__cleaned.png
+----------------------------------------------
+
+name = lb_4, stride = 80 epsilon = 160
+NB of ships  = 1
+NB of ships after filter = 1
+results/clean_images/lb_4__80__160__cleaned.png
+----------------------------------------------
+
+name = sfbay_3, stride = 20 epsilon = 160
+NB of ships  = 9
+NB of ships after filter = 9
+results/clean_images/sfbay_3__20__160__cleaned.png
+----------------------------------------------
+
